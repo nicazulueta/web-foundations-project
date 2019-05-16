@@ -1,0 +1,7 @@
+div {
+	display:flex;
+}
+
+#prizes {
+  border: solid 1px black;
+}
