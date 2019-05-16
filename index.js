@@ -81,6 +81,7 @@ customerList.addEventListener('click', (event) => {
       }
     if (event.target.id === 'Bazz' && event.target.className === 'moe' && data.customers.Moe.Bazz > 0) {
     data.customers.Moe.Bazz = data.customers.Moe.Bazz - 1
+    data.prizes.Bazz = data.prizes.Bazz + 1
     }
     if (event.target.id === 'Foo' && event.target.className === 'larry' && data.customers.Larry.Foo > 0) {
     data.customers.Larry.Foo = data.customers.Larry.Foo - 1
@@ -92,6 +93,7 @@ customerList.addEventListener('click', (event) => {
       }
     if (event.target.id === 'Bazz' && event.target.className === 'larry' && data.customers.Larry.Bazz > 0) {
     data.customers.Larry.Bazz = data.customers.Larry.Bazz - 1
+    data.prizes.Bazz = data.prizes.Bazz + 1
     }
     if (event.target.id === 'Foo' && event.target.className === 'curly' && data.customers.Curly.Foo > 0) {
     data.customers.Curly.Foo = data.customers.Curly.Foo - 1
@@ -103,6 +105,7 @@ customerList.addEventListener('click', (event) => {
       }
     if (event.target.id === 'Bazz' && event.target.className === 'curly' && data.customers.Curly.Bazz > 0) {
     data.customers.Curly.Bazz = data.customers.Curly.Bazz - 1
+    data.prizes.Bazz = data.prizes.Bazz + 1
     }
   }
   if (action === 'plus') {
