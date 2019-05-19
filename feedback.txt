@@ -1,0 +1,31 @@
+## Grading Rubric
+
+# Final Score: 12 / 15 points
+
+### ui displaying state 4 / 4 pts
+- some data displayed properly 2 / 2 pt
+- all data displayed properly 2 / 2 pt
+### css 2 / 2 pts
+- ui has styles applied 1 / 1 pt
+- ui is mobile friendly 0 / 1 pt
+### event handlers 3 / 3 pts
+- event handlers being captured 1 / 1 pt
+- is state being changed 1 / 1 pt
+- is the state being re-rendered properly 1 / 1 pt
+### edge cases 1 / 2 pts
+- prevent a user from decrementing if they have no prizes 0.5 / 1pt
+- prevent a user from incrementing if there are none left 0.5 / 1pt
+### code style 2.5 / 4 pts
+- proper indentation 0.5 / 1 pt
+- semicolons 0.5 / 1 pt
+- proper use of let and const 0.5 / 1 pt
+- consistent use of arrow and/or functions 0.5 / 1 pt
+- code complexity 1 / 1 pt 
+
+Notes: 
+
+It works great! Awesome.
+
+Perhaps there is a more concise way of organizing the logic in the event listener, so we don't have to repeat the same logic for each id, class etc. If so, I think that logic could be reduced to a few lines of code!
+
+Could be helpful to use a "disabled" attribute on the buttons, if there are no more prizes. This would better prevent a user from trying to click on a button.
